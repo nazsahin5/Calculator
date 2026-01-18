@@ -1,0 +1,24 @@
+package lessoneleven;
+
+import java.util.Scanner;
+
+public class AppThreeMain {
+
+	public static void main(String[] args) {
+		//Hesap makinesi
+		
+		Scanner s = new Scanner(System.in);
+		
+		System.out.print("İlk sayıyı giriniz: ");
+		int number1 = s.nextInt();
+		System.out.print("Diğer sayıyı giriniz: ");
+		int number2 = s.nextInt();
+		
+		System.out.print("Hangi işlemi istiyorsunu: Toplama = 1 , Çıkarma = 2 Çarpma =3 Bölme = 4)");
+		int choised = s.nextInt();
+		
+		
+
+	}
+
+}
